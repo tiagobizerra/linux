@@ -21,3 +21,9 @@ ssh-agent
 ssh-add $YOUR_KEY_PATH
 #### to connect with your key to be used
 ssh $SERVER -A
+
+
+# process list
+### forest
+ps -aef --forest
+
