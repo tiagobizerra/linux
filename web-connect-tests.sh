@@ -1,7 +1,11 @@
 #!/bin/bash
 # Script to test connectivity to web services
-# Install dependencies
-#yum -y install curl mtr tcptraceroute bind-utils
+
+### Install dependencies
+## CentOS
+yum -y install curl mtr tcptraceroute bind-utils
+
+## Debian
 #apt-get install curl mtr tcptraceroute bind9-host 
 
 URL=electricity.volta-monitoring.com
