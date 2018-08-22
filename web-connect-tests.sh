@@ -3,7 +3,7 @@
 
 ### Install dependencies
 ## CentOS
-yum -y install curl mtr tcptraceroute bind-utils
+#yum -y install curl mtr tcptraceroute bind-utils
 
 ## Debian
 #apt-get install curl mtr tcptraceroute bind9-host 
