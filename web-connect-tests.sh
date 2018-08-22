@@ -8,7 +8,7 @@
 ## Debian
 #apt-get install curl mtr tcptraceroute bind9-host 
 
-URL=electricity.volta-monitoring.com
+URL=
 
 publicip=`dig +short myip.opendns.com @resolver1.opendns.com`
 echo "=== Testing access to $URL ===\n"
