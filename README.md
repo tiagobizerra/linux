@@ -1,5 +1,8 @@
 # linux
 
+### Count threads in a process
+$ ps -o nlwp <pid>
+
 ### Backup filesystem perms:
 getfacl -R / > /tmp/perms.txt
 ### Restore filesystem perms:
@@ -25,7 +28,6 @@ ssh $SERVER -A
 # process list
 ### forest
 ps -aef --forest
-
 
 ### Certbot basic setup for linux - certificate only, no nginx configuration
 yum -y install certbot-nginx
